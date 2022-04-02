@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .modal {
@@ -20,7 +21,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-}
+  padding: 15px
+  }
 
 .icon {
   color: royalblue;
@@ -46,6 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 button {
@@ -63,4 +66,27 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.top-row {
+  display: flex;
+  
+  
+}
+
+.header {
+  margin-left: 15px;
+  font-weight: bold;
+  flex-grow: 1;
+  font-size: larger;
+}
+
+.text {
+  padding-left: 57px;
+  margin-top: -10px;
+}
+
+.continue {
+  margin-left: 57px;
+  margin-top: 15px;
 }
